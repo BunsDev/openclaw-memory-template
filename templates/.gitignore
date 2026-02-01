@@ -1,0 +1,78 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+config/secrets*
+secrets.*
+
+# Logs
+*.log
+logs/
+log/
+*.log.*
+
+# Temporary files
+.tmp/
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Large files
+*.db-journal
+*.sqlite-journal
+*.tar.gz
+*.zip
+*.7z
+backups/
+
+# Node/Python
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+
+# Database dumps
+*.dump
+*.sql
+*.sqlite
+*.db
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
